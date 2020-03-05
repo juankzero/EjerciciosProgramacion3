@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Nodo.h">
+    <ClInclude Include="NodoArbol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListaDobleCircular.h">
+    <ClInclude Include="ArbolBinario.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Nodo.cpp">
+    <ClCompile Include="NodoArbol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ListaDobleCircular.cpp">
+    <ClCompile Include="ArbolBinario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">

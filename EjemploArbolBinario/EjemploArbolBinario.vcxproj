@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{D83EADC2-DE76-4C97-8B0D-E3A03CAAF01B}</ProjectGuid>
-    <RootNamespace>EjercicioListaDobleCircular</RootNamespace>
+    <ProjectGuid>{E4651CE7-5368-488F-96D6-ABE43B1B367E}</ProjectGuid>
+    <RootNamespace>EjemploArbolBinario</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,13 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ListaDobleCircular.h" />
-    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="ArbolBinario.h" />
+    <ClInclude Include="NodoArbol.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ListaDobleCircular.cpp" />
+    <ClCompile Include="ArbolBinario.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="NodoArbol.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

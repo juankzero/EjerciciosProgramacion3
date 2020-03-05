@@ -18,6 +18,8 @@ public:
 	void agregarElemento(int); //agrega al final
 	void insertarElemento(int, int); //insertar en posicion
 
+	int obtenerTamano();
+
 	void eliminarElemento(int);
 
 	void imprimir();
