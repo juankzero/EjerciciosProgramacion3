@@ -16,15 +16,14 @@ void ArbolBinario::agregarNodoArbol(const char* _nombre)
 NodoArbol* ArbolBinario::agregarNodoRec(NodoArbol* _raiz, const char* _nombre) 
 {
 	if (_raiz == nullptr)
-	{
 		_raiz = new NodoArbol(_nombre, nullptr, nullptr);
-		return _raiz;
-	}
-
+	else
 	if (strcmp(raiz->getNombre(), _nombre) < 0)
 		_raiz->setHijoDerecho(agregarNodoRec(_raiz->getHijoDerecho(), _nombre));
-	else
+	else if(strcmp(raiz->getNombre(), _nombre) > 0)
 		_raiz->setHijoIzquierdo(agregarNodoRec(_raiz->getHijoIzquierdo(), _nombre));
+	
+	return _raiz;
 }
 
 void ArbolBinario::imprimir() 
