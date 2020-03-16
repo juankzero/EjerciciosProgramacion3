@@ -18,9 +18,9 @@ NodoArbol* ArbolBinario::agregarNodoRec(NodoArbol* _raiz, const char* _nombre)
 	if (_raiz == nullptr)
 		_raiz = new NodoArbol(_nombre, nullptr, nullptr);
 	else
-	if (strcmp(raiz->getNombre(), _nombre) < 0)
+	if (strcmp(_raiz->getNombre(), _nombre) < 0)
 		_raiz->setHijoDerecho(agregarNodoRec(_raiz->getHijoDerecho(), _nombre));
-	else if(strcmp(raiz->getNombre(), _nombre) > 0)
+	else if(strcmp(_raiz->getNombre(), _nombre) > 0)
 		_raiz->setHijoIzquierdo(agregarNodoRec(_raiz->getHijoIzquierdo(), _nombre));
 	
 	return _raiz;
